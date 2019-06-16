@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../jquery-3.4.1.js"></script>
+    <script src="poker.js"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        .box{
+            width: 800px;
+            height: 600px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            background: #00c1de;
+            background: url("./imgs/shijiang.jpg");
+        }
+        .poker{
+            width: 90px;
+            height: 120px;
+            background: #009966;
+            position: absolute;
+            left: 350px;
+            top: 0;
+            background-size: cover;
+            background-position: center;
+            opacity: 0.7;
+            border: solid 2px #4cd964;
+        }
+
+        .active{
+            border-color: yellow;
+        }
+        button{
+            width: 100px;
+            height: 30px;
+            border: none;
+            outline: none;
+            background: #009966;
+            color: #fff;
+            border-radius: 5px;
+            position: absolute;
+            left: 350px;
+            bottom: 60px;
+        }
+        .left{
+            position: absolute;
+            left:0;
+            top:476px;
+        }
+        .right{
+            position: absolute;
+            left:706px;
+            top:476px;
+        }
+        .left1{
+            bottom:20px;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <button class="right1">&gt;</button>
+    <button class="left1">&lt;</button>
+</div>
+
+</body>
+</html>
